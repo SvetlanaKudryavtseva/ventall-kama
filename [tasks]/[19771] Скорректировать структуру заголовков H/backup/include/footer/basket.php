@@ -9,8 +9,7 @@ if($bUseBasket = CAllcorp3::GetFrontParametrValue('ORDER_VIEW') === 'Y'){
 ?>
 <?$APPLICATION->IncludeComponent(
 	"aspro:basket.allcorp3", 
-	$template,
-	"header_seonik", 
+	$template, 
 	array(
 		"COMPONENT_TEMPLATE" => $template,
 		"SHOW_404" => "N",
