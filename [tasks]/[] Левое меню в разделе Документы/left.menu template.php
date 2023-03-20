@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании", 
+		"/kompaniya/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Производство", 
+		"/kompaniya/proizvodstvo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Реквизиты", 
+		"/kompaniya/rekvizity/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Карьера", 
+		"/kompaniya/karera/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
