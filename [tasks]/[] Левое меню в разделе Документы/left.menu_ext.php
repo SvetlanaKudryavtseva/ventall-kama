@@ -4,7 +4,7 @@ $aMenuLinksExt = array();
 
 if($arMenuParametrs = CAllcorp3::GetDirMenuParametrs(__DIR__))
 {
-	$iblock_id = CAllcorp3Cache::$arIBlocks[SITE_ID]['aspro_allcorp3_content']['aspro_allcorp3_services'][0];
+	$iblock_id = CAllcorp3Cache::$arIBlocks[SITE_ID]['aspro_allcorp3_content']['aspro_allcorp3_documenty'][0];
 	$arExtParams = array(
 		'IBLOCK_ID' => $iblock_id,
 		'MENU_PARAMS' => $arMenuParametrs,
